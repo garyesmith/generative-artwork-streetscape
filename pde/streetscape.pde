@@ -143,7 +143,7 @@ void drawCurbLine() {
 }
 
 // Draw sidewalk perspective lines
-// These are spread evening across the image and connect to a "vanishing point" to create perspective
+// These are spread evenly across the image and connect to a "vanishing point" to create perspective
 //  - x1 - horizontal x position of the sidewalk lines area
 //  - y1 - vertical y position of the sidewalk lines area
 //  - w - width of the sidewalk lines area
