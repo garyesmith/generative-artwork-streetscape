@@ -17,7 +17,7 @@ To run this code and generate a random artwork, simply open `index.html` in a mo
 The `index.html` file includes a local copy of the Processing.js library (version 1.3.6) and then loads and runs the Processing.js code in `streetscape.pde` via the `data-processing-sources` attribute on the HTML canvas element.
 
 # Additional Details
-Processing.js will automatically run the `setup()` function in the PDE file. This initializes the canvas and then calls additional functions to draw the various elements of the artwork, in this case, a sky, buildings, signage, people, trees, sidewalk, and electricy poles. The exact number of elements and their relative positions and sizes are randomized through generous use of the Processing.js `random(min,max)` function, which ensures that every execution of this code generates a unique artwork.
+Processing.js will automatically run the `setup()` function in the PDE file. This initializes the canvas and then calls additional functions to draw the various elements of the artwork, in this case, a sky, buildings, signage, people, trees, sidewalk, and electricity poles. The exact number of elements and their relative positions and sizes are randomized through generous use of the Processing.js `random(min,max)` function, which ensures that every execution of this code generates a unique artwork.
 
 This artwork uses the Processing.js `HSB` (Hue/Saturation/Brightness) color mode, as documented at http://processingjs.org/reference/colorMode_/. 
 
